@@ -12,10 +12,6 @@ interface IState {
     showGraph: boolean
 }
 
-/**
- * The parent element of the react app.
- * It renders title, button and Graph react element.
- */
 class App extends Component<{}, IState> {
     constructor(props: {}) {
         super(props);
